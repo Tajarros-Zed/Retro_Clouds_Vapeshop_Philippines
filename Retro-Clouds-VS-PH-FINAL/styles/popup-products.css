@@ -1,0 +1,67 @@
+:root {
+    /* Background Color */
+    --bg-dark-violet: #1A1D3B;
+    --bg-light-blue: #00FBFF;
+    --bg-pink: #FF1695;
+
+    /* Background Gradient */
+    --bg-heading: linear-gradient(90deg, rgba(51,252,255,1) 30%, rgba(255,0,138,1) 71%, rgba(255,80,176,1) 100%);
+
+    /* Heading Colors */
+    --heading-light-blue: #00FBFF;
+    --heading-pink: #FF008A;
+    --heading-light-pink: #FF50B0;
+
+    /* Paragraph Colors */
+    --txt-white: #FFF;
+
+    /* Font Style */
+    --font-family-poppins: 'Poppins', sans-serif;
+    --font-family-tourney: 'Tourney', sans-serif;
+    --font-family-open-sans: 'Open Sans', sans-serif;
+}
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+.setTourney {
+    font-family: var(--font-family-tourney);
+    background: var(--bg-heading);
+    background-clip: text;
+    color: transparent;
+}
+
+.setPoppins {
+    font-family: var(--font-family-poppins);
+}
+
+.setOpenSans {
+    font-family: var(--font-family-open-sans);
+}
+
+.popup-product-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    display: none;
+}
+
+.popup-product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 270px;
+    max-width: 500px;
+    width: 70%;
+    max-height: 90%;
+    height: 400px;
+    overflow-y: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    z-index: 9999;
+    background: linear-gradient(180deg, rgba(26,29,59,1) 50%, rgba(255,22,149,1) 100%);
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+.retro_clouds_h1{
+    font-family: "Tourney", sans-serif;
+    background: linear-gradient(90deg, rgba(51,252,255,1) 30%, rgba(255,0,138,1) 71%, rgba(255,80,176,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.oswald{
+    font-family: "Oswald", sans-serif;
+}
+
+.poppins{
+    font-family: "Poppins" , sans-serif;
+}
+
+.bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.mixed-gradient-img{
+    background-image: linear-gradient(to bottom, #1a1d3b5c, #1a1d3b6f), url('../assets/mixed-gradient.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.retro-logo{
+    background-image: linear-gradient(to bottom, #1a1d3b5c, #1a1d3b6f), url('../assets/Retro_Clouds_VS.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.forms-testimonials-img{
+    background-image: linear-gradient(to bottom, #1a1d3b5c, #1a1d3b6f), url('../assets/image-retro-pink.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonial {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../assets/divide_testimonial.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+
